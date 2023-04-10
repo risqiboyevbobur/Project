@@ -14,7 +14,7 @@ import createDate from "../dynamicAxios/dynamicAxios";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-import Footer from "./Footer/Footer";
+import Footers from "./Footer/Footer";
 
 export default function Hotel({ setShow, size }) {
   const [value, setValue] = useState("");
@@ -388,7 +388,7 @@ export default function Hotel({ setShow, size }) {
             })}
         </div>
       </div>
-      <Footer />
+      <Footers/>
     </div>
   );
 }
