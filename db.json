@@ -31,6 +31,42 @@
       "sale": "999$221",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20fnGyvGZeBF2gLQrtBwM4PIPOU8YeSnmSw&usqp=CAU",
       "id": 8
+    },
+    {
+      "name": "Bobur",
+      "location": "123456",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-J31flMu-CWDpHZtfCGuM1FzrYh6TQoi-QA&usqp=CAU",
+      "id": 9
+    },
+    
+    {
+      "name": "Bobur",
+      "location": "123456",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-J31flMu-CWDpHZtfCGuM1FzrYh6TQoi-QA&usqp=CAU",
+      "id": 10
+    },
+    {
+      "name": "Bobur",
+      "location": "123456",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-J31flMu-CWDpHZtfCGuM1FzrYh6TQoi-QA&usqp=CAU",
+      "id": 11
+    },
+    {
+      "name": "Bobur",
+      "location": "123456",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-J31flMu-CWDpHZtfCGuM1FzrYh6TQoi-QA&usqp=CAU",
+      "id": 12
     }
+    
+    
+    
   ]
 }

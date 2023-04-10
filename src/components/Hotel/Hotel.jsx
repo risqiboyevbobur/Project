@@ -302,9 +302,9 @@ export default function Hotel({ setShow, size }) {
               <div className="icon">
                 <div onClick={() => setShow(false)} className="cart">
                   <span>
-                    <i class="fas fa-cart-plus"></i>
+                    <i class="fas fa-cart-plus fa-bounce fa-lg"></i>
                   </span>
-                  <span>{size}</span>
+                  <i class="fa-sharp fa-solid fa-0 fa-beat fa-lg"></i>
                 </div>
               </div>
             </Col>
@@ -312,8 +312,8 @@ export default function Hotel({ setShow, size }) {
         </Container>
       </div>
 
-      <div className="container-fluid mt-5">
-        <div className="row text-center">
+      <div className="container-fluid mt-5 ">
+        <div style={{marginLeft:'70px'}} className="row text-center">
           {users
             .filter((res) => {
               return res.name.toLocaleLowerCase() === " "
