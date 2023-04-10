@@ -16,7 +16,6 @@ import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import Footer from "./Footer/Footer";
 
-
 export default function Hotel({ setShow, size }) {
   const [value, setValue] = useState("");
   console.log(value);
@@ -63,6 +62,10 @@ export default function Hotel({ setShow, size }) {
         setShow1(false);
       });
   };
+  useEffect(() => {
+    createAllData();
+    //eslint-disable-next-line
+  }, []);
 
   useEffect(() => {
     getUsers();
@@ -277,8 +280,6 @@ export default function Hotel({ setShow, size }) {
                   {t("text.text_paragraph")}
                 </Button>
               </Link>
-
-            
             </div>
             <Col xs={6}>
               <DropdownButton
@@ -286,9 +287,15 @@ export default function Hotel({ setShow, size }) {
                 id="dropdown-basic-button"
                 title="Change language"
               >
-                <Dropdown.Item  onClick={() => handle("uz")} href="#/action-1">English</Dropdown.Item>
-                <Dropdown.Item onClick={() => handle("ru")} href="#/action-2">Russian</Dropdown.Item>
-                <Dropdown.Item  onClick={() => handle("en")}  href="#/action-3">Uzbek</Dropdown.Item>
+                <Dropdown.Item onClick={() => handle("uz")} href="#/action-1">
+                  English
+                </Dropdown.Item>
+                <Dropdown.Item onClick={() => handle("ru")} href="#/action-2">
+                  Russian
+                </Dropdown.Item>
+                <Dropdown.Item onClick={() => handle("en")} href="#/action-3">
+                  Uzbek
+                </Dropdown.Item>
               </DropdownButton>
             </Col>
             <Col xs={1}>
@@ -381,7 +388,7 @@ export default function Hotel({ setShow, size }) {
             })}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
