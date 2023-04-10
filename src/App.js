@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import NavbarMenu from "./components/Navbar/NavbarMenu";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hotel from "./components/Hotel/Hotel";
+import Create from "./components/CreatePage/Create";
+import TableoneRow from "./components/Table/Table";
+import EditPage from "./components/EditPage/EditPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <NavbarMenu />
+        <Routes>
+          <Route path="/" element={<Hotel />} />
+          <Route path="/create" element={<Create />} />
+          <Route path="/tableone" element={<TableoneRow />} />
+          <Route path="/tableone/edit/:id" element={<EditPage />} />
+          <Route path="*" element={<h1>404 NOT FOUND </h1>} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

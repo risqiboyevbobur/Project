@@ -1,0 +1,14 @@
+{
+    "text":{
+        "text_paragraph": "Yaratish",
+        "search":"Kartalarni qidirish...",
+        "names":"Ismlar",
+        "location":"Joylashuv",
+        "img":"Rasmlar",
+        "price":"Narxlar",
+        "sale":"Sotish",
+        "edit":"O'zgartirish",
+        "delete":"O'chirish",
+        "title":"Tilni o'zgartirish"
+     }
+}

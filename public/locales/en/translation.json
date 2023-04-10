@@ -1,0 +1,14 @@
+{
+    "text":{
+        "text_paragraph": "Create",
+        "search":"Search carts...",
+        "names":"Names",
+        "location":"Locations",
+        "img":"Images",
+        "price":"Prices",
+        "sale":"Sales",
+        "edit":"Edit",
+        "delete":"Delete",
+        "title":"Change language"
+    }
+}

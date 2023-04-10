@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "name": "Airpod1",
+      "location": "w",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeuVnHzPk43Ujfm4hgI7xP92q57NFMi1opzQ&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "Airpod2",
+      "location": "Uzbekistanssssss",
+      "price": "151222",
+      "sale": "999$221",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20fnGyvGZeBF2gLQrtBwM4PIPOU8YeSnmSw&usqp=CAU",
+      "id": 6
+    },
+    {
+      "name": "Headphone",
+      "location": "15",
+      "price": "123456",
+      "sale": "999$",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeuVnHzPk43Ujfm4hgI7xP92q57NFMi1opzQ&usqp=CAU",
+      "id": 7
+    },
+    {
+      "name": "HeadPhone2",
+      "location": "Uzbekistanssssss",
+      "price": "151222",
+      "sale": "999$221",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20fnGyvGZeBF2gLQrtBwM4PIPOU8YeSnmSw&usqp=CAU",
+      "id": 8
+    }
+  ]
+}
